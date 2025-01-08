@@ -10,7 +10,7 @@ void my_eratosthenes(int n) {
     // Création d'un tableau pour marquer les nombres premiers
     int tableau[n + 1];
 
-    // Initialisation du tableau : 1 signifie que le nombre est supposé premier
+    // 1 signifie que le nombre est supposé premier
     for (int i = 0; i <= n; i++) {
         tableau[i] = 1;
     }
